@@ -126,7 +126,7 @@ struct ContentView: View {
         let phase = CGFloat(date.timeIntervalSince1970)
         
         return newColors.enumerated().map { index, color in
-            let hueShift = cos(phase + Double(index) * 0.3) * 0.02
+            let hueShift = cos(phase + Double(index) * 0.3) * 0.03
             return shiftHue(of: color, by: hueShift)
         }
     }
