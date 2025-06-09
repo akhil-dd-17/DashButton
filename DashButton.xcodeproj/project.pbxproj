@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0AB610792DF6985600236DDE /* TTNorms-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AB610772DF6985600236DDE /* TTNorms-Bold.otf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0AEDFC1D2DF6922600E72F35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB610772DF6985600236DDE /* TTNorms-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTNorms-Bold.otf"; sourceTree = "<group>"; };
 		0AEDFC0F2DF6922400E72F35 /* DashButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DashButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEDFC1C2DF6922600E72F35 /* DashButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEDFC262DF6922600E72F35 /* DashButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0AEDFC3A2DF696AC00E72F35 /* Exceptions for "DashButton" folder in "DashButton" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0AEDFC0E2DF6922400E72F35 /* DashButton */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0AEDFC112DF6922400E72F35 /* DashButton */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0AEDFC3A2DF696AC00E72F35 /* Exceptions for "DashButton" folder in "DashButton" target */,
+			);
 			path = DashButton;
 			sourceTree = "<group>";
 		};
@@ -72,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB610782DF6985600236DDE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0AB610772DF6985600236DDE /* TTNorms-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0AEDFC062DF6922400E72F35 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +105,7 @@
 				0AEDFC1F2DF6922600E72F35 /* DashButtonTests */,
 				0AEDFC292DF6922600E72F35 /* DashButtonUITests */,
 				0AEDFC102DF6922400E72F35 /* Products */,
+				0AB610782DF6985600236DDE /* Fonts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB610792DF6985600236DDE /* TTNorms-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +428,7 @@
 				DEVELOPMENT_TEAM = VJ6T7FHHKM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DashButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +457,7 @@
 				DEVELOPMENT_TEAM = VJ6T7FHHKM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DashButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
